@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>practice</title>
+    <meta practice content="練習用1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class = "header">
+      <div class = "content-wrapper header-nav">
+        <h1>XX株式会社</h1>
+        <!-- ナビゲーションであることを示す際に使用します。 ナビゲーションとは、ウェブサイト内の他のページへのリンクや、ページ内リンクなどのことです。
+        ウェブページの下部に、利用規約ページ、著作権ページ、トップページへ戻る、などのリンクが配置されることがありますが、 このような場合には<nav>を使用せず、<footer>のみで十分です。 -->
+        <nav>
+          <ul>
+            <li><a href="#">トップページ</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">事業内容</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class = "mainvisual">
+      <img src="images/family-run-business-645614_1920.jpg" alt="金属加工作業">
+      <h2>ものづくりが好き</h2>
+    <!-- グレーの背景色を引くため -->
+      <div class="bg1"></div> 
+    </section>
+    <main>
+      <main>
+        <section class="greeting">
+          <div class="content-wrapper">
+            <div class="contents">
+              <figure><img src="images/drill-444493_1920.jpg" alt=""></figure>
+              <div class="content">
+                <h2>ものづくりとは</h2>
+                <p>本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。<br>
+                  本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。<br>
+                  本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。<br>
+                  本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p>
+                </p>
+               </div>
+             </div>
+          </div>
+        </section>
+        <section class="work">
+          <div class="content-wrapper">
+            <h2>事業内容</h2>
+            <ul>
+              <!-- 文章の一部であり、その画像がないと説明できない時はp要素、画像がなくても意味は通るが補足として画像を使いたい場合はfigure要素-->
+              <li><a href="#"><figure><img src="https://placehold.jp/400x400.png"></figure><h3>タイトル</h3><p>本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p></a></li>
+              <li><a href="#"><figure><img src="https://placehold.jp/400x400.png"></figure><h3>タイトル</h3><p>本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p></a></li>
+              <li><a href="#"><figure><img src="https://placehold.jp/400x400.png"></figure><h3>タイトル</h3><p>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</p></a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="news">
+          <div class="content-wrapper">
+            <!-- ulの代わりにdlでやる場合もある。news系はテンプレート化  -->
+            <h2>NEWS</h2>
+            <ul>
+              <li><a href="#"><time>2019-00-00</time>本文が入ります。本文が入ります。本文が入ります。</a></li>
+              <li><a href="#"><time>2019-00-00</time>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</a></li>
+              <li><a href="#"><time>2019-00-00</time>本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。本文が入ります。</a></li>
+              <li><a href="#"><time>2919-00-00</time>本文が入ります。本文が入ります。本文が入ります。</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="recruit">
+          <div class="recruit-img"><img src="images/teddy-bear.jpg" alt="握手"></div>
+          <!-- ボタンをh2で囲んでいることに注意 、普通のボタンとcssが違う-->
+          <h2><a href="">採用情報</a></h2>
+          <div class="bg2"></div>
+      </section>
+    </main>
+    <footer class = "footer">
+      <div class="content-wrapper">
+        <div class="address">
+          <h2>XX株式会社</h2>
+          <p>〒000−0000 <br>
+            東京都×××××××××× <br>
+            TEL 01-2345-6789 <br>
+            FAX 01-2345-6789
+          </p>
+        </div>
+        <ul>
+          <!-- navは使わない -->
+            <li><a href="#">トップページ</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">事業内容</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+        </ul>
+        </div>
+        <div class="copylight">
+        <p>©️ XXCo., Ltd. All Rights Reserved.</p>
+    </div>
+    </footer>
+  </body>
+  </html>
